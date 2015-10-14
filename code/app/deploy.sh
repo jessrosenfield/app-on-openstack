@@ -7,7 +7,7 @@ echo "source /root/app_env.rc" >> /root/.profile
 echo "source /root/os_env.rc" >> /root/.profile
 source /root/.profile
 
-git clone https://github.com/everett-toews/app-on-openstack.git /root/app-on-openstack
+git clone https://github.com/jessrosenfield/app-on-openstack.git /root/app-on-openstack
 pip install virtualenv
 virtualenv /root/app-venv
 source /root/app-venv/bin/activate
